@@ -9,5 +9,9 @@ public abstract class figura {
         return color;
     }
 
+    public void setColor(String color) {
+        this.color = color;
+    }
+
     public abstract double calcularArea();
 }
